@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize]
 jobs:
   node_js_ci:
-    name: Run ReactJS CI
+    name: Run Node.js CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
